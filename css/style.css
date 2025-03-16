@@ -95,7 +95,19 @@ header {
     margin-bottom: .5em;
 }
 
+.body {
+    margin: 0.8em;
+}
 
+.keywords {
+    list-style: none;
+    margin-left: 1em;
+}
+
+.sub-title {
+    font-size: bold;
+    margin: 0.5em 0;
+}
 
 @media (max-width:765px) {
     /* Header */

@@ -77,6 +77,7 @@
             "institution": "Al-manara University Collage",
             "url": "https://institution.com",
             "area": "Electrical Engineering",
+            "Year": "Third Year",
             "studyType": "Bachelor",
             "startDate": "2022-01-01",
             "endDate": "2025-01-01",
@@ -167,7 +168,7 @@
             "name": "Ecommerce site",
             "startDate": "2025-01-01",
             "endDate": "2025-01-25",
-            "description": "Technology Used: Django, bootstrap5.\n Developed an ecommerce platform sales phones. The site features a user-friendly interface, secure payment gateway and product search optimizaton.",
+            "description": "Technology Used: Django, bootstrap5.<br> Developed an ecommerce platform sales phones. The site features a user-friendly interface, secure payment gateway and product search optimizaton.",
             "highlights": [
                 "..."
             ],
