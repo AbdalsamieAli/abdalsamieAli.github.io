@@ -3,27 +3,40 @@
 {% block content %}
 
 <div class="container">
+    <p class="intro">
+    {{ basics.objective }}
+    </p>
+
     <div class="card">
-        <h2 class="card-title">Objective</h2>
-        <p class="card-body">
-            {{ basics.objective }}
+        <h2 class="card-title">Education</h2>
+        <p class="body">
+            {% for edu in  education %}
+            <h3>
+                {{ edu.institution }}
+            </h3>
+            {{ edu.area }}
+            
+            {% endfor %}
         </p>
     </div>
 
     <div class="card">
         <h2 class="card-title">Skills</h2>
-        <p class="card-body">
-        {% for skill in  skills %}
-        <h3>
-            {{ skill.name }}
-        </h3>
-
-        <ul>
-            {% for item in skill.keywords %}
-            <li>{{item}}</li>
+        <p class="body">
+            {% for skill in  skills %}
+            <div>
+            <h3>
+                {{ skill.name }}
+            </h3>
+            {% if skill.keywords %}
+            <ul>
+                {% for item in skill.keywords %}
+                <li>{{item}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
             {% endfor %}
-        </ul>
-        {% endfor %}
         </p>
     </div>
 
