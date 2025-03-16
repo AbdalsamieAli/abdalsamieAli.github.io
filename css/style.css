@@ -16,8 +16,9 @@
 }
 
 body {
-    background-color: light-dark(#fff, rgba(0, 0, 0, .75));
+    background-color: light-dark(#fff, #161b22);
     color: light-dark(#000, whitesmoke);
+    height: 200vh;
 }
 
 h1,
