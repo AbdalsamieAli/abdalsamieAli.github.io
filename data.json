@@ -1,0 +1,141 @@
+{
+    "basics": {
+        "name": "Abdalsamie Ali",
+        "label": "Programmer",
+        "image": "img/profile.jpg",
+        "email": "Abdalsamieali67@gmail.com",
+        "phone": "(000) 000-0000",
+        "url": "https://abdalsamieali.github.io",
+        "icon": "img/globe.png",
+        "title": "Abdalsamie",
+        "objective": "To utilize my technical skills and provide a professional service to customers by applying and honing my knowledge and working in a challenging and motivating working environment.",
+        "location": {
+            "address": "Saudi Arabia",
+            "city": "jeddah"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "Abdalsamie Ali",
+                "url": "https://twitter.com/abdalsamieAli",
+                "icon": "img/twitter.png"
+            },
+            {
+                "network": "Linkedin",
+                "username": "Abdalsamie",
+                "url": "https://linkedin.com/in/abdalsamie-a-069370344",
+                "icon": "img/linkedin.png"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Company",
+            "position": "President",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Al-manara University Collage",
+            "url": "https://institution.com",
+            "area": "Electrical Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2022-01-01",
+            "endDate": "2025-01-01",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Python"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}

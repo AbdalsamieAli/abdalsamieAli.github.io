@@ -1,0 +1,28 @@
+<header>
+    <div class="h-container">
+
+        <div class="h-image">
+            <img src="{{ basics.image }}" width="200" alt="{{ basics.name }}">
+        </div>
+
+        <div class="profile">
+            <h1>{{ basics.name }}</h1>
+            <h3>{{ basics.location.address }} , {{ basics.location.city }}</h3>
+            <h3>{{ basics.phone }} | {{ basics.email }}</h3>
+        </div>
+    </div>
+
+    <ul class="contact">
+
+        <li>
+            <img class="icon" src="{{ basics.icon }}" width="24" alt="">
+            <a href="#">{{ basics.url }}</a>
+        </li>
+        {% for contact in basics.profiles %}
+        <li>
+            <img class="icon" src="{{ contact.icon }}" width="24" alt="{{ contact.network }}">
+            <a href="{{ contact.url }}">{{ contact.username }} </a>
+        </li>
+        {% endfor %}
+    </ul>
+</header>

@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --bg-color: rgb(6, 124, 6);
+}
+
+/* Header */
+
+header {
+    background-color: var(--bg-color);
+    color: white;
+    padding: 2rem;
+    min-width: 250px;
+}
+
+.h-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h-container h1 {
+    margin-bottom: 1rem;
+}
+
+.h-container h3 {
+    color: whitesmoke;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact a {
+    color: white;
+    margin-left: 2px;
+}
+
+.contact li {
+    display: flex;
+}
+
+.icon {
+    padding: 2px;
+    margin: 0;
+    border-radius: 50%;
+    color: white;
+}
+
+
+/* main */
