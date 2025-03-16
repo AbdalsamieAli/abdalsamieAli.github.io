@@ -9,9 +9,15 @@
 }
 
 :root {
-    --p-color: rgb(6, 124, 6);
+    color-scheme: light dark;
+    --p-color: light-dark(rgb(6, 124, 6), rgb(0, 99, 0));
     --t-color: white;
     --container: 1024px;
+}
+
+body {
+    background-color: light-dark(#fff, rgba(0, 0, 0, .75));
+    color: light-dark(#000, whitesmoke);
 }
 
 h1,
