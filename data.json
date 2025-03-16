@@ -28,6 +28,64 @@
             }
         ]
     },
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Python"
+            ]
+        },
+        {
+            "name": "Problem solving",
+            "level": "Master",
+            "keywords": [
+                "Team building",
+                "Build scalable & Secure web solutions"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "level": "Master",
+            "keywords": [
+                "git",
+                "github"
+            ]
+        },
+        {
+            "name": "Linux",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Framework",
+            "level": "Master",
+            "keywords": [
+                "Django",
+                "Flask",
+                "React",
+                "Bootstrap5",
+                "Tailwind"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Al-manara University Collage",
+            "url": "https://institution.com",
+            "area": "Electrical Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2022-01-01",
+            "endDate": "2025-01-01",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
     "work": [
         {
             "name": "Company",
@@ -54,20 +112,6 @@
             ]
         }
     ],
-    "education": [
-        {
-            "institution": "Al-manara University Collage",
-            "url": "https://institution.com",
-            "area": "Electrical Engineering",
-            "studyType": "Bachelor",
-            "startDate": "2022-01-01",
-            "endDate": "2025-01-01",
-            "score": "4.0",
-            "courses": [
-                "DB1101 - Basic SQL"
-            ]
-        }
-    ],
     "awards": [
         {
             "title": "Award",
@@ -79,7 +123,7 @@
     "certificates": [
         {
             "name": "Certificate",
-            "date": "2021-11-07",
+            "date": "2025-03-15",
             "issuer": "Company",
             "url": "https://certificate.com"
         }
@@ -88,27 +132,19 @@
         {
             "name": "Publication",
             "publisher": "Company",
-            "releaseDate": "2014-10-01",
+            "releaseDate": "2025-03-15",
             "url": "https://publication.com",
             "summary": "Description…"
         }
     ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Python"
-            ]
-        }
-    ],
     "languages": [
         {
-            "language": "English",
+            "language": "Arabic",
             "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Second language"
         }
     ],
     "interests": [
@@ -122,18 +158,28 @@
     ],
     "references": [
         {
-            "name": "Jane Doe",
+            "name": "",
             "reference": "Reference…"
         }
     ],
     "projects": [
         {
-            "name": "Project",
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "description": "Description...",
+            "name": "Ecommerce site",
+            "startDate": "2025-01-01",
+            "endDate": "2025-01-25",
+            "description": "Technology Used: Django, bootstrap5.\n Developed an ecommerce platform sales phones. The site features a user-friendly interface, secure payment gateway and product search optimizaton.",
             "highlights": [
-                "Won award at AIHacks 2016"
+                "..."
+            ],
+            "url": "https://project.com/"
+        },
+        {
+            "name": "Personal blog",
+            "startDate": "2024-11-01",
+            "endDate": "2024-11-15",
+            "description": "Technology Used: Django, SQL Lite, javascript, linux server.\n Developed a Personal blog app the person can share his ideas and projects with people.",
+            "highlights": [
+                "..."
             ],
             "url": "https://project.com/"
         }
