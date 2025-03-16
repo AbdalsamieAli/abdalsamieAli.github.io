@@ -2,6 +2,31 @@
 
 {% block content %}
 
+<div class="container">
+    <div class="card">
+        <h2 class="card-title">Objective</h2>
+        <p class="card-body">
+            {{ basics.objective }}
+        </p>
+    </div>
 
+    <div class="card">
+        <h2 class="card-title">Skills</h2>
+        <p class="card-body">
+        {% for skill in  skills %}
+        <h3>
+            {{ skill.name }}
+        </h3>
+
+        <ul>
+            {% for item in skill.keywords %}
+            <li>{{item}}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+        </p>
+    </div>
+
+</div>
 
 {% endblock %}

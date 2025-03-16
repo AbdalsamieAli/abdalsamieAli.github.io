@@ -10,5 +10,5 @@ with open('data.json', 'r') as data:
 
 content = template.render(context)
 
-with open("../index.html", 'w') as f:
+with open("index.html", 'w') as f:
     f.write(content)
