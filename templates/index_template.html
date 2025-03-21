@@ -61,6 +61,9 @@
                 <h3 class="sub-title">
                     {{ proj.name }}
                 </h3>
+                {% if proj.url %}
+                <a href="{{ proj.url }}">{{ proj.url }} </a>
+                {% endif %}
                 <ul class="keywords">
                     <li>{{proj.description}}</li>
                 </ul>

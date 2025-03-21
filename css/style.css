@@ -109,6 +109,7 @@ header {
 .keywords {
     list-style: none;
     margin-left: 1em;
+    margin-top: 0.5em;
 }
 
 .sub-title {
